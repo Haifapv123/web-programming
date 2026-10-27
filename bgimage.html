@@ -1,0 +1,22 @@
+
+<html>
+<head>
+<title>Light Bulb</title>
+</head>
+<body>
+<h2>Turn Light On/Off</h2>
+<img id="bulb" src="/home/user/Haifamca/bulboff.jpeg" alt="Bulb" width="150">
+<br><br>
+<button onclick="turnon()">Turn On</button>
+<button onclick="turnoff()">Turn Off</button>
+<script>
+function turnon() {
+ document.getElementById("bulb").src = "/home/user/Haifamca/bulbon.jpeg";
+}
+function turnoff() {
+document.getElementById("bulb").src = "/home/user/Haifamca/bulboff.jpeg";
+ }
+</script>
+</body>
+</html>
+
